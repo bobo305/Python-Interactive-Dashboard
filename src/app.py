@@ -12,7 +12,7 @@ hv.extension('bokeh')
 
 
 #banking data
-df = pd.read_csv('/workspaces/Python-Interactive-Dashboard/src/Chase_Activity_jan_thru_oct.CSV', delimiter=',')
+df = pd.read_csv('/workspaces/Python-Interactive-Finance-Dashboard/src/Chase_Activity_jan_thru_oct.CSV', delimiter=',')
 
 #cleaning/arranging  df
 df=df.rename(columns={'Details': 'Date','Posting Date': 'Description','Description': 'Amount','Amount': 'Type','Type': 'Balance'})
@@ -251,7 +251,7 @@ template=pn.template.FastListTemplate(
     title="Personal Finances Summary",
     sidebar=[
         pn.pane.Markdown("## *If you can't manage your money, making more won't help*"),
-        pn.pane.PNG('/workspaces/Python-Interactive-Dashboard/src/financial-investment-png-image.png', sizing_mode='scale_both'),
+        pn.pane.PNG('/workspaces/Python-Interactive-Finance-Dashboard/src/financial-investment-png-image.png', sizing_mode='scale_both'),
         pn.pane.Markdown(""),
         pn.pane.Markdown(""),
         select_category1
