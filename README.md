@@ -52,6 +52,7 @@ The Python Interactive Finance Dashboard is a powerful tool that simplifies fina
 ## Technologies Used
 
 - **Python**: The core programming language used for data processing and dashboard creation.
+- **Jupyter Notebook**
 - **SQL**: Used for data storage and retrieval.
 - **Libraries**: Key libraries used in the project include:
   - Pandas: Used for data manipulation.
@@ -61,7 +62,7 @@ The Python Interactive Finance Dashboard is a powerful tool that simplifies fina
   - Holoviews: Used for enhancing the dashboard's interactivity.
 
 ## Dashboard Visualization
-
+src/app.py ![Personal-Finances-Summary](https://github.com/bobo305/Python-Interactive-Dashboard/assets/126503694/2b864f5f-34eb-4047-bb3a-136aef21c014)
 
 ## Getting Started
 
@@ -70,7 +71,7 @@ To get started with the Python Interactive Finance Dashboard, follow these steps
 1. Clone or download the project repository to your local machine.
 
 2. Install the required dependencies. You can use the following command to install them:
-3. run  $ python src/app.py to view dashboard 
+3. run  $ python to view dashboard 
 
 ```bash
 pip install -r requirements.txt
